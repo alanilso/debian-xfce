@@ -1,0 +1,12 @@
+#!/bin/bash
+rm /etc/apt/sources.list
+cp /home/alan/Modelos/debian-xfce/sources.list /etc/apt/
+apt update && apt upgrade
+rm /etc/profile
+cp /home/alan/Modelos/debian-xfce/profile /etc
+source /etc/profile
+cd /home/alan/Modelos/debian-xfce/
+dpkg -i google-chrome-stable_current_amd64.deb
+apt -f install
+dpkg -i google-chrome-stable_current_amd64.deb
+dpkg -i micro-2.0.11-amd64.deb
