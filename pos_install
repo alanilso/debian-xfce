@@ -10,4 +10,10 @@ dpkg -i google-chrome-stable_current_amd64.deb
 apt -f install
 dpkg -i google-chrome-stable_current_amd64.deb
 dpkg -i micro-2.0.11-amd64.deb
-apt install xclip -s
+apt install xclip
+apt install rar unrar
+apt install neofetch
+apt install git
+apt install transmission
+apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
