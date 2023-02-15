@@ -1,2 +1,2 @@
 #!/bin/bash
-cp 
+cp /home/alan/Modelos/debian-xfce/.20-intel.conf /etc/X11/xorg.conf.d/
