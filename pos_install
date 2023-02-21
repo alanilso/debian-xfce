@@ -7,9 +7,9 @@ cp /home/alan/Modelos/debian-xfce/profile /etc
 source /etc/profile
 cd /home/alan/Modelos/debian-xfce/
 dpkg -i micro-2.0.11-amd64.deb
+apt install xclip
 apt install exa
 apt install timeshift
-apt install xclip
 apt install rar unrar
 apt install neofetch
 apt install git
