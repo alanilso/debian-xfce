@@ -15,6 +15,7 @@ apt install exa
 apt install feh
 apt install make
 apt install mtp-tools gvfs-backends
+apt install bluez-* pulseaudio-module-bluetooth
 apt install timeshift
 apt install rar unrar
 apt install neofetch
