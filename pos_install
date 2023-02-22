@@ -6,11 +6,15 @@ rm /etc/profile
 cp /home/alan/Modelos/debian-xfce/profile /etc
 source /etc/profile
 cd /home/alan/Modelos/debian-xfce/
+dpkg -i google-chrome-stable_current_amd64.deb
+apt -f install
+dpkg -i google-chrome-stable_current_amd64.deb
 dpkg -i micro-2.0.11-amd64.deb
 apt install xclip
 apt install exa
 apt install feh
 apt install make
+apt install mtp-tools gvfs-backends
 apt install timeshift
 apt install rar unrar
 apt install neofetch
