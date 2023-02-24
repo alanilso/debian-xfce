@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 rm /etc/apt/sources.list
 cp /home/alan/Modelos/debian-xfce/sources.list /etc/apt/
 apt update && apt upgrade
