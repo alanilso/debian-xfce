@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 rm /etc/apt/sources.list
 cp /home/alan/Modelos/debian-xfce/sources.list /etc/apt/
 apt update && apt upgrade
@@ -9,16 +9,15 @@ cd /home/alan/Modelos/debian-xfce/
 dpkg -i google-chrome-stable_current_amd64.deb
 apt -f install
 dpkg -i google-chrome-stable_current_amd64.deb
-dpkg -i micro-2.0.11-amd64.deb
 apt install xclip
 apt install exa
 apt install feh
 apt install make
+apt install git
+apt install neofetch
+apt install rar unrar
 apt install mtp-tools gvfs-backends
 apt install bluez-* pulseaudio-module-bluetooth
 apt install timeshift
-apt install rar unrar
-apt install neofetch
-apt install git
 apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
