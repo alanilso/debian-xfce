@@ -21,3 +21,5 @@ apt install bluez-* pulseaudio-module-bluetooth
 apt install timeshift
 apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+apt install zsh
+sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
